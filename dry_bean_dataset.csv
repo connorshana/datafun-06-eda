@@ -1,0 +1,18 @@
+              name     role         type demographic                                        description   units missing_values      
+0              Area  Feature      Integer        None  The area of a bean zone and the number of pixe...  pixels             no      
+1         Perimeter  Feature   Continuous        None  Bean circumference is defined as the length of...    None             no      
+2   MajorAxisLength  Feature   Continuous        None  The distance between the ends of the longest l...    None             no      
+3   MinorAxisLength  Feature   Continuous        None  The longest line that can be drawn from the be...    None             no      
+4       AspectRatio  Feature   Continuous        None  Defines the relationship between MajorAxisLeng...    None             no      
+5      Eccentricity  Feature   Continuous        None  Eccentricity of the ellipse having the same mo...    None             no      
+6        ConvexArea  Feature      Integer        None  Number of pixels in the smallest convex polygo...    None             no      
+7     EquivDiameter  Feature   Continuous        None  Equivalent diameter: The diameter of a circle ...    None             no      
+8            Extent  Feature   Continuous        None  The ratio of the pixels in the bounding box to...    None             no      
+9          Solidity  Feature   Continuous        None  Also known as convexity. The ratio of the pixe...    None             no      
+10        Roundness  Feature   Continuous        None  Calculated with the following formula: (4piA)/...    None             no      
+11      Compactness  Feature   Continuous        None                Measures the roundness of an object    Ed/L             no      
+12     ShapeFactor1  Feature   Continuous        None                                               None    None             no      
+13     ShapeFactor2  Feature   Continuous        None                                               None    None             no      
+14     ShapeFactor3  Feature   Continuous        None                                               None    None             no      
+15     ShapeFactor4  Feature   Continuous        None                                               None    None             no      
+16            Class   Target  Categorical        None  (Seker, Barbunya, Bombay, Cali, Dermosan, Horo...    None             no      
