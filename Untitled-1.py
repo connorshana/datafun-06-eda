@@ -3,6 +3,10 @@ import sqlite3
 import pandas as pd
 import pathlib
 
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+
 # Your code here....
 
 def main():
