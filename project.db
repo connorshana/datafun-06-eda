@@ -36,7 +36,7 @@ def insert_data_from_csv():
     """Function to use pandas to read data from CSV files (in 'data' folder)
     and insert the records into their respective tables."""
     try:
-        author_data_path = pathlib.Path("data", "authors.csv")
+        author_data_path = pathlib.Path("data", ".csv")
         book_data_path = pathlib.Path("data", "books.csv")
         authors_df = pd.read_csv(author_data_path)
         books_df = pd.read_csv(book_data_path)
